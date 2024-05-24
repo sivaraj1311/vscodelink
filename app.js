@@ -10,6 +10,6 @@ app.use(cors());
 app.use (bodyparser.json());
 
 app.get('/movie',(req,res)=>{
-    res.send("movie from server");
+    res.send("movie from server i need a update for testing");
 });
 module.exports=app
